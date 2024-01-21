@@ -3,7 +3,6 @@
 namespace App\Core\User\Application\EventListener;
 
 use App\Common\Mailer\MailerInterface;
-use App\Core\Invoice\Domain\Event\InvoiceCreatedEvent;
 use App\Core\User\Domain\Event\UserCreatedEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
