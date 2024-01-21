@@ -1,3 +1,19 @@
+## EDIT
+```
+# komenda dodająca nowego użytkownika testuser@example.com
+bin/console app:user:create testuser@example.com
+
+# komenda zwracająca listę email nieaktywnych użytkowników
+bin/console app:user:get-inactive
+```
+
+```
+# komenda 
+bin/console app:invoice:get-by-status-and-amount new 10000
+zwraca już prawidłowe wyniki
+```
+Dodatkowo, mimo że nie zostało to sprecyzowane w "To do", ustawiłem kolumnę "email" jako unikalną
+
 ## Zadanie rekrutacyjne
 Aplikacja jest małym systemem pozwalającym dodawać faktury (Invoice) do kontrahentów (User). System jest w początkowej fazie rozwoju i pozwala na uruchomienie dwóch poleceń z CLI.
 ```
