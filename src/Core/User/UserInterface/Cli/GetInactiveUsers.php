@@ -11,7 +11,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
 #[AsCommand(
-    name: 'app:users:get-inactive',
+    name: 'app:user:get-inactive',
     description: 'Pobieranie emaili nieaktywnych użytkowników'
 )]
 class GetInactiveUsers extends Command
