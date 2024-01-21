@@ -35,7 +35,7 @@ class DoctrineUserRepository implements UserRepositoryInterface
         return $user;
     }
 
-    public function getUsersByInactiveStatus(): array
+    public function getUsersByInactiveProperty(): array
     {
         return $this->entityManager->createQueryBuilder()
             ->select('u')
